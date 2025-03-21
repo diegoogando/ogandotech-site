@@ -1,0 +1,82 @@
+/* Importación de fuente profesional */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+
+/* Estilos globales */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+/* Encabezado */
+header {
+    background: linear-gradient(to right, #004d40, #7f8a88); /* Verde oscuro degradado */
+    color: white;
+    padding: 25px;
+    text-align: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Barra de navegación */
+.navbar {
+    background-color: #004d40; /* Verde oscuro */
+    padding: 10px;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.15);
+}
+
+.navbar a {
+    color: white !important;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.navbar a:hover {
+    color: #ffcc00 !important; /* Amarillo dorado */
+    transform: scale(1.1);
+}
+
+/* Contenedor principal */
+.container {
+    margin: 30px auto;
+    max-width: 900px;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Títulos */
+h2 {
+    color: #00796b; /* Verde elegante */
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+/* Botones */
+button {
+    background-color: #ffcc00; /* Amarillo dorado */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #ffb300; /* Amarillo más fuerte */
+    transform: scale(1.05);
+}
+
+/* Pie de página */
+footer {
+    background: linear-gradient(to right, #004d40, #00796b);
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+    box-shadow: 0px -4px 8px rgba(0, 0, 0, 0.2);
+}
